@@ -67,9 +67,9 @@ func main() {
 }
 ```
 
-# javascript
+# Nodejs
 
-```nodejs
+```javascript
 var axios = require('axios');
 
 var config = {
