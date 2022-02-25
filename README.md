@@ -1,5 +1,6 @@
 # giftvoucher
 แจก API วอเลทอั่งเปาสำหรับคนที่มีปัญหาเรื่อง Wallet แบน IP นอกก็ใช้ตัวนี้ได้ครับ
+https://api.zmine.me/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/
 
 # PHP
 
