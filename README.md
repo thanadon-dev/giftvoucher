@@ -2,6 +2,19 @@
 แจก API วอเลทอั่งเปาสำหรับคนที่มีปัญหาเรื่อง Wallet แบน IP นอกก็ใช้ตัวนี้ได้ครับ
 https://api.zmine.me/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/
 
+
+# Errors & Success
+
+| code     | status  | message_en              | message                             |
+| -------- | ------- | ----------------------- | ----------------------------------- |
+| 100      | error   | VOUCHER_OUT_OF_STOCK    | ลิงค์ซองของขวัญถูกใช้งานแล้ว             |
+| 101      | error   | VOUCHER_NOT_FOUND       | ลิงค์ซองของขวัญไม่ถูกต้อง                |
+| 102      | error   | CANNOT_GET_OWN_VOUCHER  | ไม่สามารถใช้อั่งเปาของตัวเองได้            |
+| 103      | error   | CANNOT_GET_MORE_ONE     | กรุณาเลือกให้รับซองได้เพียวคนเดียว         |
+| 104      | error   | PLEASE_FILL_CORRECT     | เกิดข้อผิดพลาดกรุณากรอกข้อมูลให้ถูกต้อง     |
+| 200      | success | SUCCESS_FOR_TOPUP       | ทำรายการเสร็จสิ้น                       |
+
+
 # PHP
 
 ```php
