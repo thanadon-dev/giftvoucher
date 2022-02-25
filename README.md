@@ -2,6 +2,8 @@
 แจก API วอเลทอั่งเปาสำหรับคนที่มีปัญหาเรื่อง Wallet แบน IP นอกก็ใช้ตัวนี้ได้ครับ
 https://api.zmine.me/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/
 
+https://gift.truemoney.com/campaign/?v=ลิ้งอั่งเปา  <---- ลิ้งอั่งเปาคือลิ้งหลัง ?v= ตรงนี้นะครับ อย่าลืมเขียนตัด String กันด้วย
+
 
 # Errors & Success
 
