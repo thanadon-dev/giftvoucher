@@ -41,7 +41,7 @@ import (
 
 func main() {
 
-  url := "https://api.zmine.me/giftvoucher/กรอกรหัสอั่งเปา/กรอกเบอร์/"
+  url := "https://api.zmine.me/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/"
   method := "GET"
 
   client := &http.Client {
@@ -75,7 +75,7 @@ var axios = require('axios');
 
 var config = {
   method: 'get',
-  url: 'https://api.zmine.me/giftvoucher/111/097/',
+  url: 'https://api.zmine.me/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/',
   headers: { }
 };
 
@@ -92,7 +92,7 @@ axios(config)
 # Dart
 
 ```dart
-var request = http.Request('GET', Uri.parse('https://api.zmine.me/giftvoucher/111/097/'));
+var request = http.Request('GET', Uri.parse('https://api.zmine.me/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/'));
 
 http.StreamedResponse response = await request.send();
 
