@@ -21,6 +21,7 @@ https://gift.truemoney.com/campaign/?v=ลิ้งอั่งเปา  <---- 
 
 ```javascript
 {
+    "code": "200",                                //เช็ค code เอาไว้ดู status ตอบกลับ
     "status": "success",                          //status ตอบกลับ
     "data": {                                     //โชว์ Data ถ้าหาก status เป็น error Data จะเป็น Null
         "name": "xxxx",                           //ชื่อผู้เติม
