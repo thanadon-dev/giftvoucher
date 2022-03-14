@@ -44,7 +44,7 @@ function giftvoucher($url, $tel){
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://api.zmine.me/giftvoucher/'.$url.'/'.$tel.'/',
+        CURLOPT_URL => 'https://zmine.me/api/giftvoucher/'.$url.'/'.$tel.'/',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
@@ -74,7 +74,7 @@ import (
 
 func main() {
 
-  url := "https://api.zmine.me/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/"
+  url := "https://zmine.me/api/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/"
   method := "GET"
 
   client := &http.Client {
@@ -108,7 +108,7 @@ var axios = require('axios');
 
 var config = {
   method: 'get',
-  url: 'https://api.zmine.me/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/',
+  url: 'https://zmine.me/api/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/',
   headers: { }
 };
 
@@ -125,7 +125,7 @@ axios(config)
 # โค้ดสำหรับดึงรายการภาษา Dart
 
 ```dart
-var request = http.Request('GET', Uri.parse('https://api.zmine.me/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/'));
+var request = http.Request('GET', Uri.parse('https://zmine.me/api/giftvoucher/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน/'));
 
 http.StreamedResponse response = await request.send();
 
